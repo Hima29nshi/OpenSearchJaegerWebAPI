@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Http" Version="2.3.9" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.5" />
+		<PackageReference Include="NLog.DiagnosticSource" Version="6.0.3" />
+		<PackageReference Include="NLog.Targets.OpenSearch" Version="1.0.1" />
+		<PackageReference Include="NLog.Web.AspNetCore" Version="6.1.2" />
+		<PackageReference Include="OpenSearch.Client" Version="1.8.0" />
+	</ItemGroup>
+
+</Project>
